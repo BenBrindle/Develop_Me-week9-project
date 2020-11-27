@@ -23,7 +23,7 @@ class GodCounter extends Component {
     }
 
     handleClick() {
-        this.setState({ value: this.state.value + 1 });
+        this.setState({ value: this.state.value + 10 });
     }
 
     render() {
